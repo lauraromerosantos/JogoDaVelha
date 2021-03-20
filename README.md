@@ -2,7 +2,7 @@
 
 No seu jogo, você deve representar o tabuleiro através de um array bidimensional de caracteres. Para isto, você deve criar (no mínimo) as seguintes classes:
 
-## JogoDaVelha
+## JogoDaVelha:
 - Possui o tabuleiro do jogo como atributo.   
 - No construtor da classe, receba por parâmetro um valor inteiro referente às dimensões do tabuleiro. Por exemplo, se o inteiro recebido for 3, o tabuleiro terá dimensões 3x3; caso o valor recebido seja 7, o tabuleiro terá dimensões 7x7, e assim sucessivamente. Com este valor recebido, inicialize o tabuleiro.
 - Crie o método realizaJogada, que recebe dois inteiros (referentes a uma linha e uma coluna do tabuleiro) e um caractere, referente a jogada a ser realizada ('X' ou 'O'). Este método retorna verdadeiro ou falso, e simplesmente coloca no tabuleiro a jogada realizada. Caso já tenha uma jogada na posição indicada, o método retorna falso, indicando que a jogada não pode ser realizada. Caso a jogada seja realizada corretamente, o método retorna verdadeiro.
